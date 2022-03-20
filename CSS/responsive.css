@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+    .menu-grid {
+        padding: 0 12px;
+    }
+
+    .support {
+        padding-left: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .online-user {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .support {
+        position: fixed;
+        top: var(--menu-height);
+        bottom: 40px;
+        transform: translateX(-100%);
+        left: 0;
+        z-index: 6;
+        background: var(--bg-color);
+        transition: all linear 0.3s;
+    }
+
+    .support.active {
+        transform: translateX(0);
+    }
+
+    .toggle-menu {
+        display: flex;
+    }
+}

@@ -1,0 +1,97 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(220, 220, 240, 0.7);
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 50px;
+    margin: 90px 0px 50px 0px;
+}
+
+.login{
+    background-color:white;
+    width: 50%;
+    height: fit-content;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    border-radius:10px;
+    left:0;
+    right:auto;
+    border: 1px solid;
+    box-shadow: 7px 7px #8888889c;
+}
+
+.signUp{
+    text-align:center;
+    width:50%;
+}
+
+.signUnForm *{
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+}
+
+.signIn{
+    text-align:center;
+    width:50%;
+}
+
+.signInForm *{
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
+}
+
+#signUpButton{
+    background-color: rgb(54, 145, 175);
+    border-radius:10px;
+    margin: auto;
+    width:fit-content;
+}
+
+#signInButton{
+    background-color: rgb(54, 145, 175);
+    border-radius:10px;
+    width:fit-content;
+    margin: auto;
+}
+
+.overlay{
+    position:absolute;
+    background-color: black;
+    opacity:0.9;
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#overlay1{
+    left: 0;
+    display:block;
+}
+
+#overlay2{
+    right:0;
+    display:none;
+}
+
+#haveAccount{
+    font-style:italic;
+}
+
+#haveAccount:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#createNewAccount{
+    font-style:italic;
+}
+
+#createNewAccount:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}

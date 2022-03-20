@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="CSS/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+  </head>
+
+  <body>
+    <menu class="menu">
+      <div class="menu-grid grid">
+        <div class="menu-left">
+          <div class="menu-left__logo">MPC</div>
+        </div>
+        <div class="account">
+          <div class="account__profile">
+            <div class="account__avt">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <ul class="profile__sub-menu">
+              <li class="profile__item">
+                <div class="profile__item-icon">
+                  <i class="fa-solid fa-user-pen"></i>
+                </div>
+                <div class="profile__item-text">Edit Profile</div>
+              </li>
+              <li class="profile__item logout">
+                <div class="profile__item-icon">
+                  <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                </div>
+                <div class="profile__item-text">Logout</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </menu>
+
+    <div class="content grid">
+      <div class="support">
+        <div class="support__search">
+          <div class="support__search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input
+            type="text"
+            class="support__search-input"
+            spellcheck="false"
+            data-ms-editor="true"
+            placeholder="Searching..."
+          />
+        </div>
+        <div class="separate"></div>
+        <div class="support__nav">
+          <li class="support__item active">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="support__item-text">Home</div>
+          </li>
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-brands fa-facebook-messenger"></i>
+            </div>
+            <div class="support__item-text">Messenger</div>
+          </li>
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-bell"></i>
+            </div>
+            <div class="support__item-text">Notifications</div>
+          </li>
+        </div>
+        <div class="separate"></div>
+        <ul class="support__list">
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-user-group"></i>
+            </div>
+            <div class="support__item-text">Friends</div>
+          </li>
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-bookmark"></i>
+            </div>
+            <div class="support__item-text">Saved</div>
+          </li>
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-gamepad"></i>
+            </div>
+            <div class="support__item-text">Games</div>
+          </li>
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div class="support__item-text">Group</div>
+          </li>
+          <li class="support__item">
+            <div class="support__item-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="support__item-text">Favorite</div>
+          </li>
+        </ul>
+        <div class="separate"></div>
+        <div class="support__mode">
+          <div class="support__mode-btn light">
+            <div class="support__mode-btn__icon">
+              <i class="fa-solid fa-sun"></i>
+            </div>
+            <div class="support__mode-btn__text">Light</div>
+          </div>
+          <div class="support__mode-btn dark">
+            <div class="support__mode-btn__icon">
+              <i class="fa-solid fa-moon"></i>
+            </div>
+            <div class="support__mode-btn__text">Dark</div>
+          </div>
+          <div class="support__mode-box"></div>
+        </div>
+      </div>
+
+      <div class="toggle-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="news">
+        <div class="news__blogs">
+          <div class="blog">
+            <div class="blog__head">
+              <div class="blog__head-left">
+                <div class="blog__avt">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="blog__status">
+                  <div class="blog__status-name">anvyidol</div>
+                  <div class="blog__status-more">
+                    <div class="blog__status-time">20/03</div>
+                    <div class="blog__status-icon">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: none" class="blog__head-right">
+                <div data-index="1" class="blog__delete">
+                  <i class="fa-solid fa-trash"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__content">Hello Everyone ~</div>
+
+            <div class="blog__react">
+              <div data-index="1" class="blog__react-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <div class="blog__head">
+              <div class="blog__head-left">
+                <div class="blog__avt">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="blog__status">
+                  <div class="blog__status-name">anvyidol2</div>
+                  <div class="blog__status-more">
+                    <div class="blog__status-time">20/03</div>
+                    <div class="blog__status-icon">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: none" class="blog__head-right">
+                <div data-index="2" class="blog__delete">
+                  <i class="fa-solid fa-trash"></i>
+                </div>
+              </div>
+            </div>
+            <div class="blog__content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              voluptatibus animi, rerum expedita odit consectetur quis rem id
+              suntnisi! Soluta minus consectetur ex laudantium. Dolore
+              reprehenderit quod minus nulla.
+            </div>
+            <div class="blog__react">
+              <div data-index="2" class="blog__react-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <div class="blog__head">
+              <div class="blog__head-left">
+                <div class="blog__avt">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="blog__status">
+                  <div class="blog__status-name">anvyidol</div>
+                  <div class="blog__status-more">
+                    <div class="blog__status-time">20/03</div>
+                    <div class="blog__status-icon">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: none" class="blog__head-right">
+                <div data-index="3" class="blog__delete">
+                  <i class="fa-solid fa-trash"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              voluptatibus animi, rerum expedita odit consectetur quis rem id
+              suntnisi! Soluta minus consectetur ex laudantium. Dolore
+              reprehenderit quod minus nulla.
+            </div>
+            <div class="blog__react">
+              <div data-index="3" class="blog__react-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <div class="blog__head">
+              <div class="blog__head-left">
+                <div class="blog__avt">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="blog__status">
+                  <div class="blog__status-name">anvyidol2</div>
+                  <div class="blog__status-more">
+                    <div class="blog__status-time">20/03</div>
+                    <div class="blog__status-icon">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: none" class="blog__head-right">
+                <div data-index="4" class="blog__delete">
+                  <i class="fa-solid fa-trash"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              voluptatibus animi, rerum expedita odit consectetur quis rem id
+              suntnisi! Soluta minus consectetur ex laudantium. Dolore
+              reprehenderit quod minus nulla.
+            </div>
+
+            <div class="blog__react">
+              <div data-index="4" class="blog__react-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <div class="blog__head">
+              <div class="blog__head-left">
+                <div class="blog__avt">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="blog__status">
+                  <div class="blog__status-name">anvyidol2</div>
+                  <div class="blog__status-more">
+                    <div class="blog__status-time">20/03</div>
+                    <div class="blog__status-icon">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: none" class="blog__head-right">
+                <div data-index="5" class="blog__delete">
+                  <i class="fa-solid fa-trash"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog__content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              voluptatibus animi, rerum expedita odit consectetur quis rem id
+              suntnisi! Soluta minus consectetur ex laudantium. Dolore
+              reprehenderit quod minus nulla.
+            </div>
+            <div class="blog__react">
+              <div data-index="5" class="blog__react-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="blog">
+            <div class="blog__head">
+              <div class="blog__head-left">
+                <div class="blog__avt">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="blog__status">
+                  <div class="blog__status-name">anvyidol</div>
+                  <div class="blog__status-more">
+                    <div class="blog__status-time">20/03</div>
+                    <div class="blog__status-icon">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="display: none" class="blog__head-right">
+                <div data-index="6" class="blog__delete">
+                  <i class="fa-solid fa-trash"></i>
+                </div>
+              </div>
+            </div>
+            <div class="blog__content">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+              voluptatibus animi, rerum expedita odit consectetur quis rem id
+              suntnisi! Soluta minus consectetur ex laudantium. Dolore
+              reprehenderit quod minus nulla.
+            </div>
+            <div class="blog__react">
+              <div data-index="6" class="blog__react-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="online-user">
+        <div class="online-user__heading">Online Users</div>
+        <div class="separate"></div>
+        <div class="online-user__list">
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-user"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">User 1</div>
+          </div>
+
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-user"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">User 2</div>
+          </div>
+
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-user"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">User 3</div>
+          </div>
+
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-user"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">User 4</div>
+          </div>
+        </div>
+
+        <div class="online-user__heading group">Online Group</div>
+        <div class="separate"></div>
+        <div class="online-user__list">
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-layer-group"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">Group 1</div>
+          </div>
+
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-layer-group"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">Group 2</div>
+          </div>
+
+          <div class="online-user__item">
+            <div class="online-user__item-avt">
+              <i class="fa-solid fa-layer-group"></i>
+              <div class="online-user__item-avt--online"></div>
+            </div>
+            <div class="online-user__item-name">Group 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
